@@ -56,7 +56,11 @@ namespace WebApplication1_Learning1_
         {
             if (ddlContinents.SelectedIndex==0)
             {
-               
+                ddlCountries.SelectedIndex = 0;
+                ddlCountries.Enabled = false;
+
+                ddlCities.SelectedIndex = 0;
+                ddlCities.Enabled = false;
 
             }
             else
