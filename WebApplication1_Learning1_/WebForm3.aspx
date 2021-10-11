@@ -9,11 +9,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlContinents" Width="200px" runat="server"></asp:DropDownList>
             <br />    <br />
-            <asp:DropDownList ID="DropDownList2" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlCountries" Width="200px" runat="server"></asp:DropDownList>
             <br />    <br />
-            <asp:DropDownList ID="DropDownList3" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlCities" Width="200px" runat="server"></asp:DropDownList>
             <br />
             <br />
         </div>
