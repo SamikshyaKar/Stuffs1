@@ -84,6 +84,8 @@ namespace WebApplication1_Learning1_
         {
             if (ddlCountries.SelectedIndex == 0)
             {
+                ddlCities.SelectedIndex = 0;
+                ddlCities.Enabled = false;
 
 
             }
