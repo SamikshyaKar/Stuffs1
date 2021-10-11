@@ -9,11 +9,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:DropDownList ID="ddlContinents" Width="200px" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlContinents" Width="200px" runat="server" 
+                OnSelectedIndexChanged="ddlContinents_SelectedIndexChanged" DataTextField="ContinentName"
+                DatavalueField="ContinentId" AutoPostBack="True" >                
+            </asp:DropDownList>
+
             <br />    <br />
-            <asp:DropDownList ID="ddlCountries" Width="200px" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlCountries" Width="200px" runat="server" 
+                DataTextfield="CountryName" DataValueField="CountryId"
+                OnSelectedIndexChanged="ddlCountries_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
             <br />    <br />
-            <asp:DropDownList ID="ddlCities" Width="200px" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="ddlCities" Width="200px" runat="server"
+                DataTextfield="CityName" DataValueField="CityId"
+                OnSelectedIndexChanged="ddlCities_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
             <br />
             <br />
         </div>
