@@ -15,7 +15,7 @@
 
             <br />
             <asp:Button ID="Showtop10Btn" runat="server" oncommand="CommandBtn_Click" CommandName="Show" CommandArgument="Top10"
-                Text="ShowTop10" Width="186px" />
+                Text="ShowTop10" Width="186px" OnClick="Showtop10Btn_Click1" />
             <asp:Button ID="ShowBottomBtn" runat="server" oncommand="CommandBtn_Click" CommandName="Show" CommandArgument="Bottom10"
                 Text="ShowBottom10" Width="245px" />
             <br />  <br />
