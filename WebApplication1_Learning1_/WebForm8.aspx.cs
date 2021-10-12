@@ -13,5 +13,36 @@ namespace WebApplication1_Learning1_
         {
 
         }
+
+        protected void CheckBoxList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ListBox1.Items.Clear();
+
+            foreach (ListItem li in CheckBoxList1.Items)
+            {
+                if (li.Selected)
+                {
+                    ListBox1.Items.Add(li.Text);
+
+                }
+            }
+
+                if(CheckBoxList1.SelectedIndex == -1)
+                {
+                    Label1.ForeColor = System.Drawing.Color.Red;
+                }
+                else
+                {
+                    Label1.ForeColor = System.Drawing.Color.Green;
+                }
+
+            Label1.Text = ListBox1.Items.Count.ToString() + "  Items selected";
+            
+        }
+
+        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
