@@ -13,5 +13,10 @@ namespace WebApplication1_Learning1_
         {
 
         }
+
+        protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
+        {
+
+        }
     }
 }
