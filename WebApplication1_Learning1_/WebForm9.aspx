@@ -9,7 +9,14 @@
 <body>
     <form id="form1" runat="server">
         <div>
+              <asp:FileUpload ID="FileUpload1" runat="server" />
+            <br />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+            <br />
+
+            <asp:Label ID="Label1" runat="server" Font-Bold="True"></asp:Label>
         </div>
+      
     </form>
 </body>
 </html>
