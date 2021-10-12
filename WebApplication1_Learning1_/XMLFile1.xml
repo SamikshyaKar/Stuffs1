@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/Second.png</ImageUrl>
+    <NavigateUrl>https://www.countryliving.com/gardening/garden-ideas/g25716875/red-flowers/</NavigateUrl>
+    <AlternateText>Please visit https://www.countryliving.com/gardening/garden-ideas/g25716875/red-flowers/ </AlternateText>
+    <Impressions>10</Impressions>
+   
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/flowers.png</ImageUrl>
+    <NavigateUrl>https://unsplash.com/s/photos/orange-flower</NavigateUrl>
+    <AlternateText>Please visit https://unsplash.com/s/photos/orange-flower </AlternateText>
+    <Impressions>20</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/yellow.png</ImageUrl>
+    <NavigateUrl>https://www.housebeautiful.com/lifestyle/gardening/g13074130/beautiful-flower-images/</NavigateUrl>
+    <AlternateText>Please visit https://www.housebeautiful.com/lifestyle/gardening/g13074130/beautiful-flower-images/ </AlternateText>
+    <Impressions>40</Impressions>
+  </Ad>
+</Advertisements>
