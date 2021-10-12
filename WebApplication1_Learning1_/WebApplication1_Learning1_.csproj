@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\calendar.jpg" />
     <Content Include="Images\Second.png" />
     <Content Include="Images\flowers.png" />
     <Content Include="Images\yellow.png" />
